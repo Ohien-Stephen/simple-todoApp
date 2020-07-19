@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Steves Todo</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="logo" href="#">TODO - APP</a>
+        </div>
+    </header>
+    <section class="main">
+        <form>
+           <div class="form-wrapper">
+                <input class="todo-input" type="text" placeholder="Enter a new Item"/>
+                <button class="todo-button" type="submit">
+                    <i class="fas fa-plus-square"></i>
+                </button>
+           </div>
+           <div class="select">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+           </div>
+        </form>
+        <div class="todo-container">
+            <ul class="todo-list">
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <span>Made with <i class="fas fa-heart"></i> by Ohien Stephen</span>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
